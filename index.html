@@ -239,5 +239,19 @@ src="https://www.facebook.com/tr?id=1634596161623080&ev=PageView&noscript=1"
   <p>Contacto y soporte: <a class="en-linea" href="mailto:vendawest007@gmail.com">vendawest007@gmail.com</a></p>
 </footer>
 
+
+<script>
+/* Red de seguridad: si algún día el href vuelve a traer el marcador CHECKOUT_UPSELL_AQUI,
+   el botón no lleva a ninguna parte — el clic se intercepta. Con el enlace real pegado
+   (es el caso hoy) este guion no hace nada. Única pieza de JavaScript propio de la página. */
+(function(){
+  document.querySelectorAll('.btn-comprar').forEach(function(a){
+    if ((a.getAttribute('href')||'').indexOf('CHECKOUT_UPSELL_AQUI') === -1) return;
+    a.setAttribute('aria-disabled','true');
+    a.addEventListener('click', function(e){ e.preventDefault(); }, false);
+  });
+})();
+</script>
+
 </body>
 </html>
