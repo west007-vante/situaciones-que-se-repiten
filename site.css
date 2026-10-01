@@ -268,9 +268,9 @@ main{position:relative;z-index:1;overflow-x:clip}
    ====================================================================== */
 
 /* el botón no finge mientras el marcador siga ahí */
-.btn-comprar[href*="https://pay.hotmart.com/N107844661J"]{background:transparent;color:var(--tinta-2);
+.btn-comprar[href*="CHECKOUT_UPSELL_AQUI"]{background:transparent;color:var(--tinta-2);
   border:1px dashed var(--tinta-2);cursor:not-allowed}
-.btn-comprar[href*="https://pay.hotmart.com/N107844661J"]:hover{background:transparent}
+.btn-comprar[href*="CHECKOUT_UPSELL_AQUI"]:hover{background:transparent}
 
 /* el par de hojas: la misma hoja en blanco y llena, una al lado de la otra */
 .par{display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(26px,5vw,44px);margin-top:26px}
