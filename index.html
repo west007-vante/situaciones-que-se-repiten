@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!--
+  ============================================================================
+  PÁGINA DE VENTAS EXTERNA — UPSELL
+  Producto: "El cuaderno de las situaciones que se repiten" · Hotmart 8634576 · 27,00 USD
+  Texto: /Users/pyerri/radar-publico/21-checkout-hoje/pacote/TEXTOS-HOTMART.md §3 (aprobado, no reescrito).
+  Molde: ~/esteira-sites/sites/workbook-latam/site/index.html (misma paleta, mismas fuentes).
+
+  >>> DOS MARCADORES QUE EL DUEÑO TIENE QUE CAMBIAR <<<
+
+  1) N107844661J  — aparece 2 veces, solo en el href de:
+         <a id="comprar-precio">   y   <a id="comprar-final">
+     Cámbialo por el código del checkout de Hotmart del producto 8634576.
+     Queda https://pay.hotmart.com/<CODIGO>
+     MIENTRAS NO SE CAMBIE: el CSS deja los dos botones en gris punteado y el aviso
+     "Falta pegar el enlace de pago" queda visible. EL BOTÓN NO FINGE QUE FUNCIONA.
+
+  2) El hueco WIDGET-FUNIL-HOTMART (bloque de precio) — una sola vez.
+     La documentación oficial (help.hotmart.com/pt-br/article/220402348) exige instalar el
+     código HTML del "Widget do Funil de Vendas" EN TODAS las páginas del funil, porque es él
+     quien dibuja los botones de aceptar y de rechazar la oferta. Sin ese código el Funil no
+     funciona, aunque el botón de compra directa de arriba sí funcione.
+
+  PÍXEL: solo PageView, id 1634596161623080, copiado tal cual de la página principal.
+  Ningún otro fbq('track'). Ningún parámetro con dato sensible.
+
+  SIN JAVASCRIPT PROPIO: no hay GSAP, Lenis ni site.js. Todo el movimiento es CSS.
+  NO TIENE, a propósito: cronómetro · pop-up · testimonio o prueba social · garantía
+  condicional · promesa de resultado o de plazo · escasez inventada.
+  ============================================================================
+-->
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El cuaderno de las situaciones que se repiten — seis módulos</title>
+<meta name="description" content="Seis módulos para los casos que vuelven. Cada módulo dos veces: la hoja en blanco y la misma hoja llena con un ejemplo ficticio. Doce hojas. 27,00 USD. Es opcional y no reemplaza al cuaderno de 14 módulos.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23FBF7EF'/%3E%3Cpath d='M6 21c6-3 13 2 20-2' fill='none' stroke='%231B3F8B' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css">
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1634596161623080');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1634596161623080&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+<body>
+<a class="pular" href="#contenido">Saltar al contenido</a>
+<div class="margen" aria-hidden="true"><i></i></div>
+
+<main id="contenido">
+
+<!-- ================= 1 · QUÉ ES, EN TRES LÍNEAS ================= -->
+<section class="dobra" id="dobra">
+  <p class="cabecera"><span class="marca">Las situaciones que se repiten</span> <span>Cuaderno aparte · 6 módulos · 12 hojas</span></p>
+
+  <h1 class="frase"><span class="ln"><span>La conversación que</span></span> <span class="ln"><span><em class="pluma">ya sabes cómo termina.<svg viewBox="0 0 300 12" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M3 8C40 3 74 11 118 6S196 3 236 7S282 5 297 4"/></svg></em></span></span></h1>
+
+  <div class="cuerpo lineas" style="padding:0">
+    <p>Seis módulos para los casos que vuelven: la conversación que se repite igual, el pedido que regresa, la situación que ya sabes cómo termina.</p>
+  </div>
+
+  <p class="sub">Cada módulo viene <strong>dos veces</strong>: la hoja en blanco para que la llenes, y la misma hoja ya llena con un ejemplo ficticio completo, para que veas la forma antes de escribir la tuya. <strong>Doce hojas en total.</strong> <strong>27,00&nbsp;USD</strong>, pago único. Si tu país aplica impuesto, el checkout te lo muestra antes de pagar.</p>
+
+  <div class="accion">
+    <a class="btn-ver" href="#hojas">Ver la misma hoja, en blanco y llena
+      <svg width="14" height="16" viewBox="0 0 14 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 1v13M1.5 8.5 7 14l5.5-5.5"/></svg></a>
+    <p class="btn-nota">Primero miras el material. El pago está más abajo.</p>
+  </div>
+
+  <figure class="capa">
+    <div class="capa-hoja"><img src="assets/up-capa.webp" width="376" height="570" alt="Portada del cuaderno de las situaciones que se repiten."></div>
+  </figure>
+
+  <p class="lanz">Es un cuaderno <strong>aparte</strong> y es <strong>opcional</strong>. No reemplaza al cuaderno de 14 módulos ni hace falta para usarlo: si no lo compras, no te quedas sin nada. Lanzamiento inicial, todavía sin testimonios — por eso esta página te enseña las hojas reales y no la opinión de nadie.</p>
+</section>
+
+<!-- ================= 2 · DOS HOJAS REALES, LA MISMA DOS VECES ================= -->
+<section class="bloque" id="hojas">
+  <p class="nota-margen"><b>02</b> La misma hoja, dos veces</p>
+  <div class="cuerpo">
+    <h2 class="titulo">En blanco y llena — la misma hoja.</h2>
+    <p class="peq">Son capturas del archivo que recibes, sin retoque. Las dos de abajo son <strong>la misma página del módulo 02</strong>: a la izquierda tal como te llega para llenarla, a la derecha la versión ya llena con el ejemplo ficticio.</p>
+
+    <div class="par">
+      <figure>
+        <div class="hoja-papel"><img src="assets/up-blanco2.webp" width="532" height="806" loading="lazy" alt="Hoja en blanco del módulo 02: el inventario, los favores que no son dinero y la tabla de una decisión por línea, con los renglones vacíos."></div>
+        <figcaption><b>La hoja en blanco</b>Módulo 02 — el inventario, los favores que no son dinero, y una decisión por línea. Los renglones son tuyos.</figcaption>
+      </figure>
+      <figure>
+        <div class="hoja-papel"><img src="assets/up-llena2.webp" width="532" height="806" loading="lazy" alt="La misma hoja del módulo 02 ya llena con el ejemplo ficticio, con las respuestas escritas en azul dentro de la tabla."></div>
+        <figcaption><b>La misma hoja, llena</b>El ejemplo ficticio, escrito de punta a punta. Ninguna persona real está descrita ahí: el cuaderno lo marca como ficción en cada hoja.</figcaption>
+      </figure>
+    </div>
+
+    <figure class="suelta">
+      <div class="hoja-papel"><img src="assets/up-indice.webp" width="532" height="806" loading="lazy" alt="Página de contenido del cuaderno, con los seis módulos y la marca EN BLANCO + LLENA en cada uno."></div>
+      <figcaption style="font-size:.92rem;color:var(--tinta-2);margin-top:14px">El contenido: los seis módulos, cada uno con su par «en blanco + llena».</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ================= 3 · LOS SEIS MÓDULOS ================= -->
+<!-- nombres y descripciones = página de contenido del PDF, copiadas tal cual -->
+<section class="bloque" id="modulos">
+  <p class="nota-margen"><b>03</b> Los seis módulos</p>
+  <div class="cuerpo">
+    <h2 class="titulo">Seis casos que vuelven.</h2>
+    <ol class="modulos seis">
+      <li class="modulo"><span class="modulo-n">01</span><span class="modulo-t">El pedido que llega fuera de horario</span><p class="modulo-d">tu franja horaria, escrita, con excepciones tuyas y dos líneas de respuesta</p><i class="raya"></i></li>
+      <li class="modulo"><span class="modulo-n">02</span><span class="modulo-t">El dinero prestado y el favor que cuesta</span><p class="modulo-d">el inventario de lo que prestaste, una decisión por línea y la frase del próximo pedido</p><i class="raya"></i></li>
+      <li class="modulo"><span class="modulo-n">03</span><span class="modulo-t">Lo escrito: el chat, el grupo, el audio y el «visto»</span><p class="modulo-d">tu tiempo de respuesta por canal, la regla de los audios y qué haces en un grupo</p><i class="raya"></i></li>
+      <li class="modulo"><span class="modulo-n">04</span><span class="modulo-t">Visitas, fechas y reuniones</span><p class="modulo-d">la fecha cortada en pedazos, con tu hora de llegada, de salida y tu despedida escrita</p><i class="raya"></i></li>
+      <li class="modulo"><span class="modulo-n">05</span><span class="modulo-t">El pedido que regresa por tercera vez</span><p class="modulo-d">las tres veces con fecha, una respuesta de una línea y tu regla para la cuarta</p><i class="raya"></i></li>
+      <li class="modulo"><span class="modulo-n">06</span><span class="modulo-t">Cuando quien pide decide sobre ti</span><p class="modulo-d">cuando quien pide decide sobre tu sueldo, tu casa o tus papeles; este módulo empieza con un filtro: léelo antes de llenarlo</p><i class="raya"></i></li>
+    </ol>
+    <p class="peq">Seis módulos, doce hojas: cada uno aparece dos veces, primero en blanco y enseguida lleno.</p>
+  </div>
+</section>
+
+<!-- ================= 4 · PARA QUIÉN SÍ Y PARA QUIÉN NO ================= -->
+<section class="bloque" id="para-quien">
+  <p class="nota-margen"><b>04</b> Para quién</p>
+  <div class="cuerpo">
+    <h2 class="titulo">Mejor decirlo antes de que pagues.</h2>
+    <div class="dos">
+      <i class="dos-linea" aria-hidden="true"></i>
+      <div>
+        <h3>Es para quien…</h3>
+        <ul class="guiones">
+          <li>ya tiene el cuaderno de 14 módulos y quiere llevar los mismos ejercicios a casos concretos que le vuelven;</li>
+          <li>se topa siempre con la misma conversación, el mismo pedido o la misma fecha;</li>
+          <li>prefiere ver una hoja ya llena antes de escribir la suya;</li>
+          <li>lo quiere hacer solo, por escrito, sin contarle su historia a nadie.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>No es para quien…</h3>
+        <ul class="guiones">
+          <li>busca terapia, diagnóstico o acompañamiento profesional — esto no lo sustituye;</li>
+          <li>espera un resultado garantizado o una fecha: aquí no hay plazo prometido;</li>
+          <li>no quiere escribir nada (las doce hojas son para escribir);</li>
+          <li>está en una situación con violencia, amenazas o miedo de alguien: eso merece apoyo de una persona preparada, no un cuaderno;</li>
+          <li>cree que esto reemplaza al cuaderno de 14 módulos. No lo reemplaza, y comprarlo es opcional.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 5 · PRECIO Y CONDICIONES ================= -->
+<section class="bloque" id="precio">
+  <p class="nota-margen"><b>05</b> Precio y condiciones</p>
+  <div class="cuerpo">
+    <p class="precio-cifra"><span>27,00 <small>USD</small></span></p>
+    <p class="precio-l">Pago único de 27,00 USD: no hay suscripción, ni cobros mensuales, ni un segundo cobro escondido. El cobro lo procesa una plataforma de pago externa, que cobra en la moneda de tu país y <strong>añade el impuesto local cuando corresponde</strong> — lo verás en la pantalla de pago antes de confirmar.</p>
+    <ul class="condiciones">
+      <li>Acceso inmediato: terminas el pago y recibes el archivo por el correo de la plataforma.</li>
+      <li>Es un PDF llenable en A4, que también se puede imprimir. El archivo es tuyo, no caduca.</li>
+      <li><strong>Devolución sin preguntas, 30 días</strong> — y te quedas con el archivo.</li>
+      <li>Es un cuaderno aparte y opcional: <strong>no reemplaza al cuaderno de 14 módulos</strong> ni hace falta para usarlo.</li>
+    </ul>
+
+    <a class="btn-comprar" id="comprar-precio" href="https://pay.hotmart.com/N107844661J">Comprar el cuaderno — 27,00 USD</a>
+
+    <!-- =====================================================================
+         WIDGET-FUNIL-HOTMART — PEGAR AQUÍ EL CÓDIGO DEL WIDGET
+         app.hotmart.com → Ferramentas → Funil de Vendas → el funil →
+         Ações → Editar etapas → icono </> "Código do Widget" → copiar y pegar
+         exactamente aquí, sustituyendo este comentario.
+         Es él quien dibuja los botones de ACEPTAR y de RECHAZAR la oferta.
+         Sin este código el Funil de Vendas no funciona en esta página.
+         ===================================================================== -->
+    <div class="hueco">
+      <b>Hueco reservado del Widget del Funil de Ventas de Hotmart.</b>
+      Mientras no se pegue el código, esta página vende por el botón de arriba, pero no
+      funciona como etapa del Funil. No hay nada que el visitante tenga que hacer aquí.
+    </div>
+
+    <p class="btn-nota">¿Dudas antes de pagar? <a class="en-linea" href="mailto:vendawest007@gmail.com">vendawest007@gmail.com</a></p>
+  </div>
+</section>
+
+<!-- ================= 6 · POLÍTICA REAL ================= -->
+<section class="bloque" id="politica">
+  <p class="nota-margen"><b>06</b> Política</p>
+  <div class="cuerpo">
+    <h2 class="titulo">Devolución y soporte, tal cual.</h2>
+    <div class="politica-dos">
+      <p><strong>Devolución sin preguntas, 30 días.</strong> Escribes a <a class="en-linea" href="mailto:vendawest007@gmail.com">vendawest007@gmail.com</a> y te devolvemos los 27,00 USD. No tienes que explicar por qué, no tienes que haber llenado nada, y <strong>te quedas con el archivo</strong>. No hay condición ni letra chica.</p>
+      <p><strong>Soporte.</strong> Mismo correo. Atiende una persona, no un robot, y puede tardar. Si el archivo no te llega o no te abre, escribe y lo resolvemos.</p>
+    </div>
+    <p class="legal">Este es material educativo de autoexploración. <strong>No es terapia ni tratamiento, no hace diagnóstico y no promete resultados ni plazos.</strong> Todos los ejemplos son ficción y están marcados como ficción: no son el caso de ninguna persona real. Si al escribir aparece miedo de alguien, violencia o un malestar que no baja, conviene buscar apoyo profesional o el servicio de atención de tu país.</p>
+  </div>
+</section>
+
+<!-- ================= 7 · CTA FINAL ================= -->
+<section class="cierre" id="cierre">
+  <h2 class="frase"><span class="ln"><span>La conversación que</span></span> <span class="ln"><span><em class="pluma">ya sabes cómo termina.<svg viewBox="0 0 300 12" preserveAspectRatio="none" aria-hidden="true"><path d="M3 8C40 3 74 11 118 6S196 3 236 7S282 5 297 4"/></svg></em></span></span></h2>
+  <p class="sub cierre-sub">Seis módulos, doce hojas: cada una en blanco y la misma ya llena con un ejemplo ficticio. <strong>27,00 USD</strong>, pago único (más el impuesto de tu país, si aplica). Devolución sin preguntas, 30 días. Es opcional y no reemplaza al cuaderno de 14 módulos.</p>
+  <a class="btn-comprar" id="comprar-final" href="https://pay.hotmart.com/N107844661J">Comprar el cuaderno — 27,00 USD</a>
+  <p class="btn-nota">Si no es para ti, está bien: el cuaderno de 14 módulos funciona completo sin esto.</p>
+</section>
+
+</main>
+
+<footer class="pie">
+  <p><strong>El cuaderno de las situaciones que se repiten</strong> — seis módulos, doce hojas. Cuaderno aparte y opcional. Lanzamiento inicial, sin testimonios.</p>
+
+  <details><summary>Privacidad</summary>
+    <div class="txt">
+      <p>Esta página no tiene formulario y no te pide ningún dato para verla. Lo que escribes en el cuaderno se queda en tu dispositivo: no se sube, no se envía y nadie lo lee.</p>
+      <p>Usamos el píxel de Meta solo para contar visitas de la página (evento <em>PageView</em>). Nunca se envía ninguna respuesta de ejercicio, historia de salud ni información de familia — ni en el nombre del evento ni en ningún parámetro. Los datos del pago los trata una plataforma de pago externa, no nosotros; no guardamos tu tarjeta.</p>
+    </div></details>
+
+  <details><summary>Términos</summary>
+    <div class="txt">
+      <p>Compras un archivo digital (PDF) para uso personal. No se puede revender, redistribuir ni publicar. El precio es 27,00 USD, pago único. La plataforma de pago cobra en la moneda de tu país y puede añadir el impuesto local; el monto final aparece en el checkout antes de confirmar.</p>
+      <p>Devolución sin preguntas durante 30 días desde la compra, escribiendo al correo de abajo; te devolvemos el importe y te quedas con el archivo.</p>
+      <p>Material educativo de autoexploración. No es terapia, no es tratamiento, no es diagnóstico y no promete ningún resultado ni plazo.</p>
+    </div></details>
+
+  <p>Contacto y soporte: <a class="en-linea" href="mailto:vendawest007@gmail.com">vendawest007@gmail.com</a></p>
+</footer>
+
+</body>
+</html>
